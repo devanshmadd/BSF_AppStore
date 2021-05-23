@@ -13,5 +13,5 @@ App features:
 6) Push notifications so that the user doesn't miss out on any event.
 
 
-Link to the App Store: (It has expired now)
+Link to the App Store: (It has expired now but had around 250 users during the sports fest and was in the top 40 apps in the sports section)
 https://apps.apple.com/us/app/bits-sports-fest/id1486190493
