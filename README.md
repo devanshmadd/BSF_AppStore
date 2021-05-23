@@ -12,9 +12,6 @@ App features:
 5) Homepage with an introductory video and highlighting the major events for BSF 2019, which also works offline.
 6) Push notifications so that the user doesn't miss out on any event.
 
-Link to the Project:
-https://drive.google.com/drive/folders/1wdslvR88HAZUh8o8at2sDKuS3kT0_66A?usp=sharing
-You can download the project from here.
 
 Link to the App Store: (It has expired now)
 https://apps.apple.com/us/app/bits-sports-fest/id1486190493
