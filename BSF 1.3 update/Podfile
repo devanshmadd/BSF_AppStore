@@ -1,0 +1,18 @@
+platform :ios, '12.0'
+
+target 'BSF' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for BSF
+pod 'Firebase/Core'
+pod 'Firebase/Storage'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'SwiftyJSON'
+pod 'SDWebImage'
+pod 'IQKeyboardManagerSwift'
+pod 'ReachabilitySwift'
+pod 'ListPlaceholder'
+pod 'Firebase/Messaging'
+end

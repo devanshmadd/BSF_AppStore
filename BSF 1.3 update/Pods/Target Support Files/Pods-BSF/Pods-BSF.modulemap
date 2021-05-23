@@ -1,0 +1,6 @@
+framework module Pods_BSF {
+  umbrella header "Pods-BSF-umbrella.h"
+
+  export *
+  module * { export * }
+}

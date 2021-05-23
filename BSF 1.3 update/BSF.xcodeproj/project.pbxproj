@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B05B74A237057E6000E753F /* Pods_BSF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851D5237A12995250C99D453 /* Pods_BSF.framework */; };
+		9B8562ED23870C55006090E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B8562EC23870C55006090E5 /* GoogleService-Info.plist */; };
+		9B9FEFCC23642B12000F401F /* customButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9FEFCB23642B12000F401F /* customButton.swift */; };
+		EE0D7A39236D88A100716DF1 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0D7A38236D88A100716DF1 /* RegistrationVC.swift */; };
+		EE3B1D552366E6F1004617BC /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B1D542366E6F1004617BC /* ResultCell.swift */; };
+		EE3B1D592366EBF8004617BC /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B1D582366EBF8004617BC /* ResultVC.swift */; };
+		EE76316F23510B2F008AD131 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76316E23510B2F008AD131 /* AppDelegate.swift */; };
+		EE76317123510B2F008AD131 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76317023510B2F008AD131 /* SceneDelegate.swift */; };
+		EE76317323510B2F008AD131 /* NewsFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76317223510B2F008AD131 /* NewsFeedVC.swift */; };
+		EE76317623510B2F008AD131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE76317423510B2F008AD131 /* Main.storyboard */; };
+		EE76317823510B30008AD131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE76317723510B30008AD131 /* Assets.xcassets */; };
+		EE76317B23510B30008AD131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE76317923510B30008AD131 /* LaunchScreen.storyboard */; };
+		EE7631882351A6DE008AD131 /* NewPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7631872351A6DE008AD131 /* NewPostVC.swift */; };
+		EE76318A2351B2A8008AD131 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7631892351B2A8008AD131 /* Post.swift */; };
+		EE7631B02352D629008AD131 /* NewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7631AF2352D629008AD131 /* NewsFeedCell.swift */; };
+		EE84C72B238444940023AFDD /* GothamBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE84C722238444940023AFDD /* GothamBold.ttf */; };
+		EE84C72C238444940023AFDD /* GothamLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE84C723238444940023AFDD /* GothamLightItalic.ttf */; };
+		EE84C72D238444940023AFDD /* GothamLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE84C724238444940023AFDD /* GothamLight.ttf */; };
+		EE84C72E238444940023AFDD /* GothamMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE84C725238444940023AFDD /* GothamMedium.ttf */; };
+		EE84C72F238444940023AFDD /* GothamBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE84C726238444940023AFDD /* GothamBoldItalic.ttf */; };
+		EE84C730238444940023AFDD /* GothamBookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE84C727238444940023AFDD /* GothamBookItalic.ttf */; };
+		EE84C731238444940023AFDD /* GothamMedium_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE84C728238444940023AFDD /* GothamMedium_1.ttf */; };
+		EE84C732238444940023AFDD /* GothamBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE84C729238444940023AFDD /* GothamBook.ttf */; };
+		EE84C733238444940023AFDD /* GothamMediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE84C72A238444940023AFDD /* GothamMediumItalic.ttf */; };
+		EE89A2D32362C5950089657E /* Fixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89A2D22362C5950089657E /* Fixtures.swift */; };
+		EE89A2D52362C7D40089657E /* FixturesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89A2D42362C7D40089657E /* FixturesCell.swift */; };
+		EE89A2D72362C7EB0089657E /* FixturesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89A2D62362C7EB0089657E /* FixturesVC.swift */; };
+		EE89A2DA2362CC2D0089657E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89A2D92362CC2D0089657E /* Data.swift */; };
+		EE89A2DD2362FDB60089657E /* FixturesViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89A2DC2362FDB60089657E /* FixturesViewDesign.swift */; };
+		EE89A2DF2362FF790089657E /* MatchesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89A2DE2362FF790089657E /* MatchesVC.swift */; };
+		EE89A2E12362FF960089657E /* MatchesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89A2E02362FF960089657E /* MatchesCell.swift */; };
+		EE89A2E32362FFA10089657E /* Matches.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89A2E22362FFA10089657E /* Matches.swift */; };
+		EEADD6EE2355D9F100E6F69C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEADD6ED2355D9F100E6F69C /* LoginVC.swift */; };
+		EEADD6F12355FD5400E6F69C /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEADD6F02355FD5400E6F69C /* Protocol.swift */; };
+		EEAEA8B8238053AC007F5B9C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEA8B7238053AC007F5B9C /* HomeVC.swift */; };
+		EEAEA8BA2380542A007F5B9C /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EEAEA8B923805429007F5B9C /* video.mp4 */; };
+		EEAFA082236D1F2400F3B3BE /* MatchDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAFA081236D1F2400F3B3BE /* MatchDetails.swift */; };
+		EEBAC4952363DF570009E33C /* AddFixturesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBAC4942363DF570009E33C /* AddFixturesVC.swift */; };
+		EED4E0BA235DEA4F00F8D3FD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED4E0B9235DEA4F00F8D3FD /* Extension.swift */; };
+		EEE156D423670F390018E26E /* SportResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE156D323670F390018E26E /* SportResultVC.swift */; };
+		EEE156D623670F4E0018E26E /* SportResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE156D523670F4E0018E26E /* SportResultCell.swift */; };
+		EEE156D823670F6D0018E26E /* SportResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE156D723670F6D0018E26E /* SportResult.swift */; };
+		EEE156DA236723960018E26E /* AddResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE156D9236723960018E26E /* AddResultVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BB9222F435E418E9DE3FDAA /* Pods-BSF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSF.release.xcconfig"; path = "Target Support Files/Pods-BSF/Pods-BSF.release.xcconfig"; sourceTree = "<group>"; };
+		3B78E02D4F6263C431BBD619 /* Pods-BSF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSF.debug.xcconfig"; path = "Target Support Files/Pods-BSF/Pods-BSF.debug.xcconfig"; sourceTree = "<group>"; };
+		851D5237A12995250C99D453 /* Pods_BSF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8562EC23870C55006090E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9B9FEFCB23642B12000F401F /* customButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customButton.swift; sourceTree = "<group>"; };
+		EE0D7A38236D88A100716DF1 /* RegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
+		EE3B1D542366E6F1004617BC /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		EE3B1D582366EBF8004617BC /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		EE76316B23510B2F008AD131 /* BSF 2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BSF 2019.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE76316E23510B2F008AD131 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE76317023510B2F008AD131 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE76317223510B2F008AD131 /* NewsFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedVC.swift; sourceTree = "<group>"; };
+		EE76317523510B2F008AD131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE76317723510B30008AD131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE76317A23510B30008AD131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE76317C23510B30008AD131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7631872351A6DE008AD131 /* NewPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostVC.swift; sourceTree = "<group>"; };
+		EE7631892351B2A8008AD131 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		EE7631AF2352D629008AD131 /* NewsFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedCell.swift; sourceTree = "<group>"; };
+		EE84C722238444940023AFDD /* GothamBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBold.ttf; sourceTree = "<group>"; };
+		EE84C723238444940023AFDD /* GothamLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamLightItalic.ttf; sourceTree = "<group>"; };
+		EE84C724238444940023AFDD /* GothamLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamLight.ttf; sourceTree = "<group>"; };
+		EE84C725238444940023AFDD /* GothamMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamMedium.ttf; sourceTree = "<group>"; };
+		EE84C726238444940023AFDD /* GothamBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBoldItalic.ttf; sourceTree = "<group>"; };
+		EE84C727238444940023AFDD /* GothamBookItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBookItalic.ttf; sourceTree = "<group>"; };
+		EE84C728238444940023AFDD /* GothamMedium_1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamMedium_1.ttf; sourceTree = "<group>"; };
+		EE84C729238444940023AFDD /* GothamBook.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBook.ttf; sourceTree = "<group>"; };
+		EE84C72A238444940023AFDD /* GothamMediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamMediumItalic.ttf; sourceTree = "<group>"; };
+		EE89A2D22362C5950089657E /* Fixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixtures.swift; sourceTree = "<group>"; };
+		EE89A2D42362C7D40089657E /* FixturesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesCell.swift; sourceTree = "<group>"; };
+		EE89A2D62362C7EB0089657E /* FixturesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesVC.swift; sourceTree = "<group>"; };
+		EE89A2D92362CC2D0089657E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		EE89A2DC2362FDB60089657E /* FixturesViewDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesViewDesign.swift; sourceTree = "<group>"; };
+		EE89A2DE2362FF790089657E /* MatchesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesVC.swift; sourceTree = "<group>"; };
+		EE89A2E02362FF960089657E /* MatchesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesCell.swift; sourceTree = "<group>"; };
+		EE89A2E22362FFA10089657E /* Matches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matches.swift; sourceTree = "<group>"; };
+		EEAA8FF22382DE84007C1BE7 /* BITS Sports Fest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BITS Sports Fest.entitlements"; sourceTree = "<group>"; };
+		EEADD6ED2355D9F100E6F69C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		EEADD6F02355FD5400E6F69C /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		EEAEA8B7238053AC007F5B9C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		EEAEA8B923805429007F5B9C /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		EEAFA081236D1F2400F3B3BE /* MatchDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetails.swift; sourceTree = "<group>"; };
+		EEBAC4942363DF570009E33C /* AddFixturesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFixturesVC.swift; sourceTree = "<group>"; };
+		EED4E0B9235DEA4F00F8D3FD /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		EEE156D323670F390018E26E /* SportResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportResultVC.swift; sourceTree = "<group>"; };
+		EEE156D523670F4E0018E26E /* SportResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportResultCell.swift; sourceTree = "<group>"; };
+		EEE156D723670F6D0018E26E /* SportResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportResult.swift; sourceTree = "<group>"; };
+		EEE156D9236723960018E26E /* AddResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddResultVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE76316823510B2F008AD131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B05B74A237057E6000E753F /* Pods_BSF.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		899A188E16FDA4551C51F017 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				851D5237A12995250C99D453 /* Pods_BSF.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B23F3C3D328A5B4499F48684 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B78E02D4F6263C431BBD619 /* Pods-BSF.debug.xcconfig */,
+				1BB9222F435E418E9DE3FDAA /* Pods-BSF.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE76316223510B2F008AD131 = {
+			isa = PBXGroup;
+			children = (
+				EE76316D23510B2F008AD131 /* BSF */,
+				EE76316C23510B2F008AD131 /* Products */,
+				B23F3C3D328A5B4499F48684 /* Pods */,
+				899A188E16FDA4551C51F017 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE76316C23510B2F008AD131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE76316B23510B2F008AD131 /* BSF 2019.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE76316D23510B2F008AD131 /* BSF */ = {
+			isa = PBXGroup;
+			children = (
+				EEAA8FF22382DE84007C1BE7 /* BITS Sports Fest.entitlements */,
+				EE84C7212384442B0023AFDD /* Font */,
+				EE89A2DB2362FD920089657E /* Design */,
+				EE89A2D82362CC1D0089657E /* DataSet */,
+				EED4E0B8235DEA4400F8D3FD /* Extensions */,
+				EEADD6EF2355FD4400E6F69C /* Protocols */,
+				EE76318423510B44008AD131 /* Model */,
+				EE76318323510B3E008AD131 /* View */,
+				EE76318223510B38008AD131 /* Controller */,
+				EE76316E23510B2F008AD131 /* AppDelegate.swift */,
+				EEAEA8B923805429007F5B9C /* video.mp4 */,
+				EE76317023510B2F008AD131 /* SceneDelegate.swift */,
+				EE76317423510B2F008AD131 /* Main.storyboard */,
+				EE76317723510B30008AD131 /* Assets.xcassets */,
+				EE76317923510B30008AD131 /* LaunchScreen.storyboard */,
+				9B8562EC23870C55006090E5 /* GoogleService-Info.plist */,
+				EE76317C23510B30008AD131 /* Info.plist */,
+			);
+			path = BSF;
+			sourceTree = "<group>";
+		};
+		EE76318223510B38008AD131 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EEAEA8B7238053AC007F5B9C /* HomeVC.swift */,
+				EE76317223510B2F008AD131 /* NewsFeedVC.swift */,
+				EEADD6ED2355D9F100E6F69C /* LoginVC.swift */,
+				EE7631872351A6DE008AD131 /* NewPostVC.swift */,
+				EE89A2D62362C7EB0089657E /* FixturesVC.swift */,
+				EE89A2DE2362FF790089657E /* MatchesVC.swift */,
+				EEBAC4942363DF570009E33C /* AddFixturesVC.swift */,
+				EE3B1D582366EBF8004617BC /* ResultVC.swift */,
+				EEE156D323670F390018E26E /* SportResultVC.swift */,
+				EEE156D9236723960018E26E /* AddResultVC.swift */,
+				EE0D7A38236D88A100716DF1 /* RegistrationVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EE76318323510B3E008AD131 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE7631AF2352D629008AD131 /* NewsFeedCell.swift */,
+				EE89A2D42362C7D40089657E /* FixturesCell.swift */,
+				EE89A2E02362FF960089657E /* MatchesCell.swift */,
+				EE3B1D542366E6F1004617BC /* ResultCell.swift */,
+				EEE156D523670F4E0018E26E /* SportResultCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE76318423510B44008AD131 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE7631892351B2A8008AD131 /* Post.swift */,
+				EE89A2D22362C5950089657E /* Fixtures.swift */,
+				EE89A2E22362FFA10089657E /* Matches.swift */,
+				EEE156D723670F6D0018E26E /* SportResult.swift */,
+				EEAFA081236D1F2400F3B3BE /* MatchDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE84C7212384442B0023AFDD /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				EE84C722238444940023AFDD /* GothamBold.ttf */,
+				EE84C726238444940023AFDD /* GothamBoldItalic.ttf */,
+				EE84C729238444940023AFDD /* GothamBook.ttf */,
+				EE84C727238444940023AFDD /* GothamBookItalic.ttf */,
+				EE84C724238444940023AFDD /* GothamLight.ttf */,
+				EE84C723238444940023AFDD /* GothamLightItalic.ttf */,
+				EE84C728238444940023AFDD /* GothamMedium_1.ttf */,
+				EE84C725238444940023AFDD /* GothamMedium.ttf */,
+				EE84C72A238444940023AFDD /* GothamMediumItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		EE89A2D82362CC1D0089657E /* DataSet */ = {
+			isa = PBXGroup;
+			children = (
+				EE89A2D92362CC2D0089657E /* Data.swift */,
+			);
+			path = DataSet;
+			sourceTree = "<group>";
+		};
+		EE89A2DB2362FD920089657E /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				EE89A2DC2362FDB60089657E /* FixturesViewDesign.swift */,
+				9B9FEFCB23642B12000F401F /* customButton.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		EEADD6EF2355FD4400E6F69C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EEADD6F02355FD5400E6F69C /* Protocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EED4E0B8235DEA4400F8D3FD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EED4E0B9235DEA4F00F8D3FD /* Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE76316A23510B2F008AD131 /* BSF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE76317F23510B30008AD131 /* Build configuration list for PBXNativeTarget "BSF" */;
+			buildPhases = (
+				8632D2BAC85673C4B0653CD3 /* [CP] Check Pods Manifest.lock */,
+				EE76316723510B2F008AD131 /* Sources */,
+				EE76316823510B2F008AD131 /* Frameworks */,
+				EE76316923510B2F008AD131 /* Resources */,
+				AAFEC6E41A0962DCC5EA0FCE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSF;
+			productName = BSF;
+			productReference = EE76316B23510B2F008AD131 /* BSF 2019.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE76316323510B2F008AD131 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Devansh Shah";
+				TargetAttributes = {
+					EE76316A23510B2F008AD131 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = EE76316623510B2F008AD131 /* Build configuration list for PBXProject "BSF" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE76316223510B2F008AD131;
+			productRefGroup = EE76316C23510B2F008AD131 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE76316A23510B2F008AD131 /* BSF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE76316923510B2F008AD131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE84C732238444940023AFDD /* GothamBook.ttf in Resources */,
+				EE76317B23510B30008AD131 /* LaunchScreen.storyboard in Resources */,
+				EE84C72F238444940023AFDD /* GothamBoldItalic.ttf in Resources */,
+				EEAEA8BA2380542A007F5B9C /* video.mp4 in Resources */,
+				EE84C72D238444940023AFDD /* GothamLight.ttf in Resources */,
+				EE84C72C238444940023AFDD /* GothamLightItalic.ttf in Resources */,
+				EE76317823510B30008AD131 /* Assets.xcassets in Resources */,
+				EE84C731238444940023AFDD /* GothamMedium_1.ttf in Resources */,
+				EE84C72E238444940023AFDD /* GothamMedium.ttf in Resources */,
+				EE76317623510B2F008AD131 /* Main.storyboard in Resources */,
+				EE84C72B238444940023AFDD /* GothamBold.ttf in Resources */,
+				EE84C730238444940023AFDD /* GothamBookItalic.ttf in Resources */,
+				EE84C733238444940023AFDD /* GothamMediumItalic.ttf in Resources */,
+				9B8562ED23870C55006090E5 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8632D2BAC85673C4B0653CD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BSF-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAFEC6E41A0962DCC5EA0FCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BSF/Pods-BSF-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BSF/Pods-BSF-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BSF/Pods-BSF-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE76316723510B2F008AD131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE89A2DF2362FF790089657E /* MatchesVC.swift in Sources */,
+				EEAEA8B8238053AC007F5B9C /* HomeVC.swift in Sources */,
+				EE89A2E12362FF960089657E /* MatchesCell.swift in Sources */,
+				EE3B1D592366EBF8004617BC /* ResultVC.swift in Sources */,
+				EEBAC4952363DF570009E33C /* AddFixturesVC.swift in Sources */,
+				EED4E0BA235DEA4F00F8D3FD /* Extension.swift in Sources */,
+				EEE156D823670F6D0018E26E /* SportResult.swift in Sources */,
+				EE3B1D552366E6F1004617BC /* ResultCell.swift in Sources */,
+				9B9FEFCC23642B12000F401F /* customButton.swift in Sources */,
+				EEAFA082236D1F2400F3B3BE /* MatchDetails.swift in Sources */,
+				EE89A2D52362C7D40089657E /* FixturesCell.swift in Sources */,
+				EEE156DA236723960018E26E /* AddResultVC.swift in Sources */,
+				EE89A2D72362C7EB0089657E /* FixturesVC.swift in Sources */,
+				EE76317323510B2F008AD131 /* NewsFeedVC.swift in Sources */,
+				EE0D7A39236D88A100716DF1 /* RegistrationVC.swift in Sources */,
+				EE76316F23510B2F008AD131 /* AppDelegate.swift in Sources */,
+				EE89A2D32362C5950089657E /* Fixtures.swift in Sources */,
+				EEADD6EE2355D9F100E6F69C /* LoginVC.swift in Sources */,
+				EEADD6F12355FD5400E6F69C /* Protocol.swift in Sources */,
+				EE89A2DD2362FDB60089657E /* FixturesViewDesign.swift in Sources */,
+				EE89A2DA2362CC2D0089657E /* Data.swift in Sources */,
+				EE7631B02352D629008AD131 /* NewsFeedCell.swift in Sources */,
+				EE76317123510B2F008AD131 /* SceneDelegate.swift in Sources */,
+				EE7631882351A6DE008AD131 /* NewPostVC.swift in Sources */,
+				EE89A2E32362FFA10089657E /* Matches.swift in Sources */,
+				EE76318A2351B2A8008AD131 /* Post.swift in Sources */,
+				EEE156D423670F390018E26E /* SportResultVC.swift in Sources */,
+				EEE156D623670F4E0018E26E /* SportResultCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE76317423510B2F008AD131 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE76317523510B2F008AD131 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE76317923510B30008AD131 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE76317A23510B30008AD131 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE76317D23510B30008AD131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE76317E23510B30008AD131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE76318023510B30008AD131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B78E02D4F6263C431BBD619 /* Pods-BSF.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BSF/BITS Sports Fest.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_TEAM = SL67FZ9G4Y;
+				INFOPLIST_FILE = BSF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevanshShHarshitGa.BSF;
+				PRODUCT_NAME = "BSF 2019";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EE76318123510B30008AD131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB9222F435E418E9DE3FDAA /* Pods-BSF.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BSF/BITS Sports Fest.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_TEAM = SL67FZ9G4Y;
+				INFOPLIST_FILE = BSF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevanshShHarshitGa.BSF;
+				PRODUCT_NAME = "BSF 2019";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE76316623510B2F008AD131 /* Build configuration list for PBXProject "BSF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE76317D23510B30008AD131 /* Debug */,
+				EE76317E23510B30008AD131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE76317F23510B30008AD131 /* Build configuration list for PBXNativeTarget "BSF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE76318023510B30008AD131 /* Debug */,
+				EE76318123510B30008AD131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE76316323510B2F008AD131 /* Project object */;
+}
