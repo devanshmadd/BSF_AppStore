@@ -16,5 +16,5 @@ Link to the Project:
 https://drive.google.com/drive/folders/1wdslvR88HAZUh8o8at2sDKuS3kT0_66A?usp=sharing
 You can download the project from here.
 
-Link to the App Store:
+Link to the App Store: (It has expired now)
 https://apps.apple.com/us/app/bits-sports-fest/id1486190493
