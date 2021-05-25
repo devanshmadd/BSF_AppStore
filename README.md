@@ -16,4 +16,4 @@ App features:
 Link to the App Store: (It has expired now but had around 250 users during the sports fest and was in the top 40 apps in the sports section)
 https://apps.apple.com/us/app/bits-sports-fest/id148619049
 
-![]()
+![](/IMAGES/Group.png)
