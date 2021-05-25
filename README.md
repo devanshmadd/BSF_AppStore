@@ -17,3 +17,13 @@ Link to the App Store: (It has expired now but had around 250 users during the s
 https://apps.apple.com/us/app/bits-sports-fest/id148619049
 
 ![](/IMAGES/Group.png)
+
+![](/IMAGES/Newsfeed2.png)
+
+![](/IMAGES/list.png)
+
+![](/IMAGES/resu.png)
+
+![](/IMAGES/Regis.png)
+
+
